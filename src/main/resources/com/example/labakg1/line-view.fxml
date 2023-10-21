@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.Pane?>
+
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.Button?>
+<Pane fx:id="pane" xmlns:fx="http://javafx.com/fxml" fx:controller="com.example.labakg1.LinearController"
+      prefHeight="600" prefWidth="800">
+    <TextField fx:id="endX" layoutX="40" layoutY="10" promptText="Enter endX"/>
+
+    <TextField fx:id="endY" layoutX="230" layoutY="10" promptText="Enter endY"/>
+
+    <Button text="Clear" layoutX="490" layoutY="10" onAction="#clearScreen"/>
+
+    <Button text="Start" layoutX="420" layoutY="10" onAction="#buildLine"/>
+
+</Pane>

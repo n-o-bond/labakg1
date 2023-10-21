@@ -1,0 +1,7 @@
+.cell-background {
+    -fx-background-color: white;
+}
+
+.cell {
+    -fx-border-color: lightgray;
+}
